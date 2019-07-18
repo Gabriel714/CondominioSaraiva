@@ -10,8 +10,68 @@ body {
 	font-family: 'Segoe UI';
 }
 
+#rodape a{ 
+    clear:both; 
+    width:112%;
+    margin:0 0;
+    font-size:25px;
+    text-align:center; 
+    padding-top:15px;
+    padding-right:105px;
+    text-decoration: none; 
+    display:inline-block;
+    
+}
+
+
+#telefone li a {
+    clear:both;
+    margin:0 0; 
+    font-size:15px; 
+    text-decoration:none; 
+    display:inline-block; 
+    color: black;
+}
+
+.box{
+      width: 50%;
+      display: inline-flex;
+      float: right; 
+      padding-left: 30px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2.6rem;
+	font-family: Georgia, "Times New Roman", Times, serif;
+    color: #C63;
+    margin-bottom: 10px;
+}
+
+h4 { 
+    font-size:2.6em; 
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #C63;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+p, li { 
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size:1.2em; 
+    color:#555; 
+    line-height:1.8;
+    padding: 0 50px;
+}
+
+p {
+    line-height: 1.8; 
+    padding-left:39px; 
+}
+
 .main {
-	width: 60%;
+	width: 70%;
 	background: #fff;
 }
 
@@ -55,20 +115,14 @@ body {
 	padding: 50px;
 }
 
-.title {
-	font-weight: 600;
-	font-size: 2.6rem;
-	font-family: Georgia, "Times New Roman", Times, serif;
-    color: #C63;
-    margin-bottom: 50px;
-}
+
 
 .text {
-	padding: 0 30px;
+	padding: 0 50px;
 }
 
 .section {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	align-items: flex-start;
 }
 
