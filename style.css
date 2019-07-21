@@ -35,9 +35,14 @@ body {
 
 .box{
       width: 50%;
-      display: inline-flex;
-      float: right; 
+      display: inline-block;
       padding-left: 30px;
+      float: right;
+}
+.box1{
+      width: 50%;
+      display: inline-block;
+      padding-left: 50px;
 }
 
 h1 {
@@ -96,7 +101,7 @@ p {
 }
 
 .nav-link {
-	font-size: .8rem;
+	font-size: 0.8rem;
 	font-weight: 600;
 	color: #fff;
 	margin: 0 15px;
@@ -162,14 +167,7 @@ h4 {
     
 }
 #rodape a{ 
-    clear: both;
-    width:100%;
-    margin:0 0;
-    font-size:14px;
-    text-align:center; 
-    padding-top:10px;
-    padding-left: 70px;
-    display:inline-block;
+    display: none;
     
 } 
 .box{
@@ -199,7 +197,7 @@ h4 {
 }
 
 .nav-link {
-	font-size: .8rem;
+	font-size: .6srem;
 	font-weight: 600;
 	color: #fff;
 	margin: 0 5px;
