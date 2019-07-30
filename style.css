@@ -49,15 +49,10 @@ body {
 }
 
 .box{
-      width: 50%;
-      display: inline-block;
-      padding-left: 30px;
-      float: right;
+      display: none;
 }
 .box1{
-      width: 50%;
-      display: inline-block;
-      padding-left: 50px;
+      display: none;
 }
 
 h1 {
@@ -151,8 +146,24 @@ p {
 @media(max-width: 768px) {
 body {
      background-image: none;
-}   
-    
+}
+       
+.box{
+      width: 30%;
+      display: inline-block;
+      float: right;
+      padding-bottom: 50px;
+}
+.box1{
+      width: 30%;
+      display: inline-block;]
+     float: right;
+}
+
+.carousel-inner1 img{
+      display: none;
+}
+
 p {
     line-height: 1.8; 
     padding-left:39px; 
