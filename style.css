@@ -226,16 +226,22 @@ h4 {
 .navbar {
       width: 100%;
       height:50px;
-      display: flex;
       position: inherit;
+      background: #5D240A;
+      display:flex;
+	  align-items:center;
+	  justify-content: center;
     
 } 
 
 .nav-link {
-	font-size: .6srem;
+	/*font-size: .6srem;*/
 	font-weight: 600;
 	color: #fff;
-	margin: 0 5px;
+	/*margin: 0 5px;*/
+    font-size: 0.8srem;
+	color: #fff;
+	margin: 0 1px; 
 }
 
 .content {
