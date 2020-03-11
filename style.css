@@ -4,26 +4,37 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-image: url('imagens/Golfinho.jpg');
+	background-image: url('imagens/Condominio19.jpg');
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment:fixed;
 	font-family: 'Segoe UI';
 }
 
+.header {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+}
+
+.header img {
+	height: 400px;
+    
+}
 
 .carousel-inner img {
       width: 100%;
-
+      height: 500px; 
+       
 }
 
 .carousel-inner1 img{
       width: 70%;
-      padding-left: 180px;
+      height: 250px;
+      padding-left: 150px;
+      
 
 }
-
-
-
 
 #rodape a{ 
     clear:both; 
@@ -86,21 +97,10 @@ p {
 }
 
 .main {
-	width:70%;
+	width:65%;
 	background: #fff;
 }
 
-.header {
-	width: 100%;
-	height: unset;
-	display: flex;
-	flex-direction: column;
-}
-
-.header img {
-	height: 400px;
-    
-}
 
 .navbar {
 	width: 100%;
@@ -112,15 +112,17 @@ p {
 }
 
 .nav-link {
-	font-size: 0.8rem;
-	font-weight: 600;
+	font-size: 1.1rem;
+	font-weight: 50.0rem;
 	color: #fff;
 	margin: 0 15px; 
+    
+    
 }
 
 .nav-link:hover {
 	color: #fff;
-	text-decoration: underline;
+	text-decoration: none;
     
 }
 
