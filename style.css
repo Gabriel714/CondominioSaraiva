@@ -166,7 +166,17 @@ body {
 
 }
 */
-
+  
+.header img {
+      width: 100%;
+      height: 500px;
+}
+    
+.carousel-inner img{
+     width: 100%;
+     height: 500px;
+}
+    
 .section {
 	margin-bottom: 10px;
 	align-items: flex-start;
@@ -217,13 +227,10 @@ h4 {
     
 .main {
       width: 100%;
+      height:100%; 
 	    
 }
 
-.header img {
-      height: 300px;
-      padding-top: 0px;
-}
 
 .navbar {
       width: 100%;
@@ -237,11 +244,9 @@ h4 {
 } 
 
 .nav-link {
-	/*font-size: .6srem;*/
-	font-weight: 600;
-	color: #fff;
-	/*margin: 0 5px;*/
-    font-size: 0.8srem;
+	font-size: 0.8rem;
+    font-weight: 700;
+	font: 80px;
 	color: #fff;
 	margin: 0 1px; 
 }
